@@ -1,0 +1,13 @@
+# Yocto big dirs
+build/tmp/
+build/sstate-cache/
+build/downloads/
+build/cache/
+build/buildhistory/
+
+# Logs
+*.log
+
+# Poky (we will not track upstream here)
+layers/poky/
+
