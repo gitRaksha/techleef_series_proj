@@ -7,6 +7,7 @@ I use it to learn the basics of building custom Linux images.
 
 ## 📂 Project Structure
 
+```text
 📂 techleef_series_proj/
  ┣ 📂 build/
  ┃ ┗ 📂 conf/          # Yocto configs (local.conf, bblayers.conf)
@@ -15,6 +16,7 @@ I use it to learn the basics of building custom Linux images.
  ┃ ┗ 📂 poky/          # Upstream Yocto (not tracked in git)
  ┣ 📄 .gitignore
  ┗ 📄 README.md
+ ```
 
 ---
 
