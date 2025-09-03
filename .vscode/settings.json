@@ -11,6 +11,5 @@
         ".gitignore": "yaml",
         "*.conf": "bitbake",
         "*.inc": "bitbake"
-    },
-    "bitbake.buildConfigurations": []
+    }
 }
