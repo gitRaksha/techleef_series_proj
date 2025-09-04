@@ -8,14 +8,21 @@ I use it to learn the basics of building custom Linux images.
 ## 📂 Project Structure
 
 ```text
-📂 techleef_series_proj/
- ┣ 📂 build/
- ┃ ┗ 📂 conf/          # Yocto configs (local.conf, bblayers.conf)
- ┣ 📂 layers/
- ┃ ┣ 📂 meta-techleef/ # ✨ My custom Yocto layer
- ┃ ┗ 📂 poky/          # Upstream Yocto (not tracked in git)
- ┣ 📄 .gitignore
- ┗ 📄 README.md
+.
+├── 📂 build
+│   ├── 📄 bitbake-cookerdaemon.log
+│   ├── 📄 bitbake.lock
+│   ├── 📂 buildhistory
+│   ├── 📂 cache
+│   ├── 📂 conf
+│   ├── 📂 downloads
+│   ├── 📂 sstate-cache
+│   └── 📂 tmp
+├── 📂 layers
+│   ├── 📂 meta-techleef
+│   └── 📂 poky
+└── 📄 README.md
+
  ```
 
 ---
@@ -40,3 +47,4 @@ bitbake core-image-minimal
 runqemu core-image-minimal nographic
 
 6. Login as root (no password) 🎉
+
