@@ -7,7 +7,10 @@ build/buildhistory/
 .vscode/
 # Logs
 *.log
-.vscode
 
 # Poky (we will not track upstream here)
 layers/poky/
+
+# VS Code settings
+.vscode/
+*.code-workspace
