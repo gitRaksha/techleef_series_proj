@@ -4,10 +4,10 @@ build/sstate-cache/
 build/downloads/
 build/cache/
 build/buildhistory/
-
+.vscode/
 # Logs
 *.log
+.vscode
 
 # Poky (we will not track upstream here)
 layers/poky/
-

@@ -8,6 +8,7 @@
         "${workspaceFolder}/sources/poky/meta/lib"
     ],
     "files.associations": {
+        ".gitignore": "yaml",
         "*.conf": "bitbake",
         "*.inc": "bitbake"
     }
